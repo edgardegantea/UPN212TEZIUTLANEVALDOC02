@@ -26,6 +26,7 @@ $routes->group('admin', ['filter' => 'auth'], function ($routes) {
     $routes->get('/', 'Admin\AdminController::index');
     // $routes->resource('usuarios', ['controller' => 'Admin\UsuarioController']);
     $routes->resource('usuarios', ['controller' => 'Admin\UsuarioController']);
+    $routes->resource('asignaturas', ['controller' => 'Admin\AsignaturaController']);
 });
 
 $routes->group('docente', ['filter' => 'auth'], function ($routes) {

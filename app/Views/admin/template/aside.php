@@ -32,25 +32,25 @@
                 <li class="nav-header">PRINCIPAL</li>
                 <li class="nav-item">
                     <a href="<?= base_url('admin/usuarios'); ?>" class="nav-link">
-                        <i class="nav-icon fas fa-user-alt"></i>
+                        <i class="nav-icon fas fa-users"></i>
                         <p>Usuarios</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="https://adminlte.io/docs/3.1/" class="nav-link">
-                        <i class="nav-icon fas fa-file"></i>
+                    <a href="asignaturas" class="nav-link">
+                        <i class="nav-icon fas fa-bookmark"></i>
                         <p>Asignaturas</p>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a href="https://adminlte.io/docs/3.1/" class="nav-link">
-                        <i class="nav-icon fas fa-file"></i>
+                        <i class="nav-icon fas fa-user-graduate"></i>
                         <p>Estudiantes</p>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a href="https://adminlte.io/docs/3.1/" class="nav-link">
-                        <i class="nav-icon fas fa-file"></i>
+                        <i class="nav-icon fas fa-school"></i>
                         <p>Sedes</p>
                     </a>
                 </li>
