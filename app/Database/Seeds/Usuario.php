@@ -24,7 +24,7 @@ class Usuario extends Seeder
                 'email'         => 'edgar.degante.a@gmail.com',
                 'password'      => password_hash('12345678', PASSWORD_DEFAULT),
                 'foto'          => null,
-                'sexo'          => 'M',
+                'sexo'          => 'Hombre',
                 'created_at'    => '2023-04-06 12:00:00'
             ],
             [
@@ -36,7 +36,7 @@ class Usuario extends Seeder
                 'email'         => 'anailb@gmail.com',
                 'password'      => password_hash('12345678', PASSWORD_DEFAULT),
                 'foto'          => null,
-                'sexo'          => 'F',
+                'sexo'          => 'Mujer',
                 'created_at'    => '2023-04-06 12:00:05'
             ],
             [
@@ -48,7 +48,7 @@ class Usuario extends Seeder
                 'email'         => 'mariana@gmail.com',
                 'password'      => password_hash('12345678', PASSWORD_DEFAULT),
                 'foto'          => null,
-                'sexo'          => 'F',
+                'sexo'          => 'Mujer',
                 'created_at'    => '2023-04-06 12:00:15'
             ]
         ]);
