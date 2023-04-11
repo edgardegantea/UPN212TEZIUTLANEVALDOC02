@@ -151,7 +151,7 @@
                         <i class="fas fa-cog mr-2"></i> Mi perfil
                     </a>
                     <div class="dropdown-divider"></div>
-                    <a href="logout" class="dropdown-item">
+                    <a href="<?= base_url('logout') ?>" class="dropdown-item">
                         <i class="fa fa-sign-out mr-2"></i> Cerrar sesión
                     </a>
 

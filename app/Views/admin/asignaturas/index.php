@@ -56,8 +56,8 @@ $this->section('encabezado') ?><p class="text-uppercase">Asignaturas</p><?= $thi
                                 <tr>
                                     <td><?= $asignatura['nombre']; ?> </td>
                                     <td>
-                                        Créditos: <?= $asignatura['creditos']; ?>
-                                        Horas D/S/M: <?= $asignatura['horasSemana']; ?>
+                                        <p>Créditos: <?= $asignatura['creditos']; ?></p>
+                                        <p>Horas D/S/M: <?= $asignatura['horasSemana']; ?></p>
 
                                     </td>
                                     <td><?= $asignatura['descripcion'] ?> </td>

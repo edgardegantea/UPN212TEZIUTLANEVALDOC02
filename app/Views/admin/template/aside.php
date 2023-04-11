@@ -37,7 +37,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="asignaturas" class="nav-link">
+                    <a href="<?= base_url('admin/asignaturas') ?>" class="nav-link">
                         <i class="nav-icon fas fa-bookmark"></i>
                         <p>Asignaturas</p>
                     </a>

@@ -1,6 +1,6 @@
 <?= $this->extend('admin/template/layout');
-$this->section('title') ?>Crear usuario<?= $this->endSection();
-$this->section('encabezado') ?><p class="text-uppercase">Nuevo usuario</p><?= $this->endSection();
+$this->section('title') ?>Editar usuario<?= $this->endSection();
+$this->section('encabezado') ?><p class="text-uppercase">Editar datos del usuario seleccionado</p><?= $this->endSection();
 ?>
 
 <?= $this->section('content') ?>

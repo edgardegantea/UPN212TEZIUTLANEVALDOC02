@@ -1,6 +1,6 @@
 <?= $this->extend('admin/template/layout');
-$this->section('title') ?>Crear usuario<?= $this->endSection();
-$this->section('encabezado') ?><p class="text-uppercase">Nuevo usuario</p><?= $this->endSection();
+$this->section('title') ?>Editar asignatura<?= $this->endSection();
+$this->section('encabezado') ?><p class="text-uppercase">Editar datos de la asignatura seleccionada</p><?= $this->endSection();
 ?>
 
 <?= $this->section('content') ?>
@@ -9,71 +9,79 @@ $this->section('encabezado') ?><p class="text-uppercase">Nuevo usuario</p><?= $t
         <?php $validation = \Config\Services::validation(); ?>
         <div class="row py-4">
             <div class="col-xl-12 text-end">
-                <a href="<?= base_url('admin/usuarios') ?>" class="btn btn-danger">Cancelar y regresar</a>
+                <a href="<?= base_url('admin/asignaturas') ?>" class="btn btn-danger">Cancelar y regresar</a>
             </div>
         </div>
     </div>
 
 
-    <form method="POST" action="<?= base_url('admin/usuarios/' . $usuario['id']); ?>">
+    <form method="POST" action="<?= base_url('admin/asignaturas/' . $asignatura['id']); ?>" enctype="multipart/form-data">
         <?= csrf_field() ?>
 
         <div class="card primary">
             <div class="card-header">
-                <h5 class="card-title">Actualizar datos del usuario</h5>
+                <h5 class="card-title">Actualizar datos de la asignatura</h5>
             </div>
 
             <input type="hidden" name="_method" value="PUT">
 
             <div class="card-body">
+
+
                 <div class="row">
                     <div class="col-md-4">
                         <div class="form-group mb-3 has-validation">
-                            <label class="form-label">PERFIL:</label>
-                            <select class="form-control" name="rol" id="">
-                                <option value="estudiante">Estudiante</option>
-                                <option value="docente">Docente</option>
-                                <option value="admin">Administrador</option>
-                            </select>
+                            <label class="form-label">Clave de la asignatura:</label>
+                            <input type="text"
+                                   class="form-control <?php if ($validation->getError('clave')): ?>is-invalid<?php endif ?>"
+                                   name="clave" placeholder="AA02X"
+                                   value="<?php if ($asignatura['clave']): echo $asignatura['clave']; else: set_value('clave'); endif; ?>"/>
+                            <?php if ($validation->getError('clave')): ?>
+                                <div class="invalid-feedback">
+                                    <?= $validation->getError('clave') ?>
+                                </div>
+                            <?php endif; ?>
                         </div>
                     </div>
-
                     <div class="col-md-4">
                         <div class="form-group mb-3 has-validation">
-                            <label class="form-label">Matrícula:</label>
-                            <input type="text"
-                                   class="form-control <?php if ($validation->getError('codigo')): ?>is-invalid<?php endif ?>"
-                                   name="codigo" placeholder="Matrícula"
-                                   value="<?php if ($usuario['codigo']): echo $usuario['codigo']; else: set_value('codigo'); endif ?>"/>
-                            <?php if ($validation->getError('codigo')): ?>
+                            <label class="form-label">Créditos:</label>
+                            <input type="number" max="20" min="0"
+                                   class="form-control <?php if ($validation->getError('creditos')): ?>is-invalid<?php endif ?>"
+                                   name="creditos" placeholder="3"
+                                   value="<?php if ($asignatura['creditos']): echo $asignatura['creditos']; else: set_value('creditos'); endif; ?>"/>
+                            <?php if ($validation->getError('creditos')): ?>
                                 <div class="invalid-feedback">
-                                    <?= $validation->getError('codigo') ?>
+                                    <?= $validation->getError('creditos') ?>
+                                </div>
+                            <?php endif; ?>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group mb-3 has-validation">
+                            <label class="form-label">Horas S/D/M:</label>
+                            <input type="number" min="0" max="10"
+                                   class="form-control <?php if ($validation->getError('horasSemana')): ?>is-invalid<?php endif ?>"
+                                   name="horasSemana" placeholder="3"
+                                   value="<?php if ($asignatura['horasSemana']): echo $asignatura['horasSemana']; else: set_value('horasSemana'); endif; ?>"/>
+                            <?php if ($validation->getError('horasSemana')): ?>
+                                <div class="invalid-feedback">
+                                    <?= $validation->getError('horasSemana') ?>
                                 </div>
                             <?php endif; ?>
                         </div>
                     </div>
 
-
-                    <div class="col-md-4">
-                        <div class="form-group mb-3 has-validation">
-                            <label class="form-label">Sexo:</label>
-                            <select class="form-control" name="sexo" id="">
-                                <option value="Mujer">Mujer</option>
-                                <option value="Hombre">Hombre</option>
-                            </select>
-                        </div>
-                    </div>
                 </div>
 
                 <div class="row">
-
-                    <div class="col-md-4">
+                    <div class="col">
                         <div class="form-group mb-3 has-validation">
-                            <label class="form-label">Nombre:</label>
+                            <label class="form-label">Asignatura:</label>
                             <input type="text"
                                    class="form-control <?php if ($validation->getError('nombre')): ?>is-invalid<?php endif ?>"
-                                   name="nombre" placeholder="Matrícula"
-                                   value="<?php if ($usuario['nombre']): echo $usuario['nombre']; else: set_value('nombre'); endif ?>"/>
+                                   name="nombre" placeholder="Tu nombre"
+                                   value="<?php if ($asignatura['nombre']): echo $asignatura['nombre']; else: set_value('nombre'); endif; ?>"/>
                             <?php if ($validation->getError('nombre')): ?>
                                 <div class="invalid-feedback">
                                     <?= $validation->getError('nombre') ?>
@@ -81,112 +89,67 @@ $this->section('encabezado') ?><p class="text-uppercase">Nuevo usuario</p><?= $t
                             <?php endif; ?>
                         </div>
                     </div>
-
-
-                    <div class="col-md-4">
-                        <div class="form-group mb-3 has-validation">
-                            <label class="form-label">Apellido paterno:</label>
-                            <input type="text"
-                                   class="form-control <?php if ($validation->getError('apaterno')): ?>is-invalid<?php endif ?>"
-                                   name="apaterno" placeholder="Matrícula"
-                                   value="<?php if ($usuario['apaterno']): echo $usuario['apaterno']; else: set_value('apaterno'); endif ?>"/>
-                            <?php if ($validation->getError('apaterno')): ?>
-                                <div class="invalid-feedback">
-                                    <?= $validation->getError('apaterno') ?>
-                                </div>
-                            <?php endif; ?>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="form-group mb-3 has-validation">
-                            <label class="form-label">Apellido materno:</label>
-                            <input type="text"
-                                   class="form-control <?php if ($validation->getError('amaterno')): ?>is-invalid<?php endif ?>"
-                                   name="amaterno" placeholder="Apellido materno"
-                                   value="<?php if ($usuario['amaterno']): echo $usuario['amaterno']; else: set_value('amaterno'); endif ?>"/>
-                            <?php if ($validation->getError('amaterno')): ?>
-                                <div class="invalid-feedback">
-                                    <?= $validation->getError('amaterno') ?>
-                                </div>
-                            <?php endif; ?>
-                        </div>
-                    </div>
                 </div>
 
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="form-group mb-3 has-validation">
-                            <label class="form-label">Correo electrónico:</label>
-                            <input type="text"
-                                   class="form-control <?php if ($validation->getError('email')): ?>is-invalid<?php endif ?>"
-                                   name="email" placeholder="Matrícula"
-                                   value="<?php if ($usuario['email']): echo $usuario['email']; else: set_value('email'); endif ?>"/>
-                            <?php if ($validation->getError('email')): ?>
-                                <div class="invalid-feedback">
-                                    <?= $validation->getError('email') ?>
-                                </div>
-                            <?php endif; ?>
-                        </div>
-                    </div>
-
-                    <!--
-                    <div class="col md-4">
-                        <div class="form-group mb-3 has-validation">
-                            <label class="form-label">Contraseña:</label>
-                            <input type="password"
-                                   class="form-control <?php if ($validation->getError('password')): ?>is-invalid<?php endif ?>"
-                                   name="password" placeholder="Tu contraseña"
-                                   value="<?php echo set_value('password'); ?>"/>
-                            <?php if ($validation->getError('password')): ?>
-                                <div class="invalid-feedback">
-                                    <?= $validation->getError('password') ?>
-                                </div>
-                            <?php endif; ?>
-                        </div>
-                    </div>
-                    -->
-                    <input type="hidden" name="password" value="<?php echo set_value('password'); ?>">
-
-                    <div class="col-md-4">
-                        <div class="form-group mb-3 has-validation">
-                            <label class="form-label">Foto:</label>
-                            <input type="text"
-                                   class="form-control <?php if ($validation->getError('foto')): ?>is-invalid<?php endif ?>"
-                                   name="foto" placeholder="Sin foto"
-                                   value="<?php if ($usuario['foto']): echo $usuario['foto']; else: set_value('foto'); endif ?>"/>
-                            <?php if ($validation->getError('foto')): ?>
-                                <div class="invalid-feedback">
-                                    <?= $validation->getError('foto') ?>
-                                </div>
-                            <?php endif; ?>
-                        </div>
-                    </div>
-                </div>
-
-                <!--
                 <div class="row">
                     <div class="col">
                         <div class="form-group">
-                            <label class="form-label">Información acerca de tí:</label>
+                            <label class="form-label">Descripción:</label>
                             <textarea
-                                class="form-control <?php if ($validation->getError('description')): ?>is-invalid<?php endif ?>"
-                                name="bio" placeholder="Coméntanos sobre tí"><?php echo set_value('bio'); ?></textarea>
-                            <?php if ($validation->getError('bio')): ?>
+                                class="form-control <?php if ($validation->getError('descripcion')): ?>is-invalid<?php endif; ?>"
+                                name="descripcion" placeholder="Resumen de la asignatura">
+                                <?php // if ($asignatura['descripcion']): echo $asignatura['descripcion']; else: set_value('descripcion'); endif; // ?>
+                                <?php echo trim($asignatura['descripcion']); ?>
+                            </textarea>
+                            <?php if ($validation->getError('descripcion')): ?>
                                 <div class="invalid-feedback">
-                                    <?= $validation->getError('bio') ?>
+                                    <?= $validation->getError('descripcion') ?>
                                 </div>
                             <?php endif; ?>
                         </div>
                     </div>
                 </div>
-                -->
 
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label class="form-label">Temario de la asignatura:</label>
+                            <textarea
+                                class="form-control <?php if ($validation->getError('temario')): ?>is-invalid<?php endif ?>"
+                                name="temario" placeholder="Temario de la asignatura">
+                                <?php if ($asignatura['temario']): echo $asignatura['temario']; else: set_value('temario'); endif; ?>
+                            </textarea>
+                            <?php if ($validation->getError('temario')): ?>
+                                <div class="invalid-feedback">
+                                    <?= $validation->getError('temario') ?>
+                                </div>
+                            <?php endif; ?>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group mb-3 has-validation">
+                            <label class="form-label">Archivo del temario de la asignatura:</label>
+                            <input type="file" accept="application/pdf"
+                                   class="form-control <?php if ($validation->getError('temarioArchivo')): ?>is-invalid<?php endif ?>"
+                                   name="temarioArchivo" placeholder="Temario de la asignatura"
+                                   value="<?php if ($asignatura['temarioArchivo']): echo $asignatura['temarioArchivo']; else: set_value('temarioArchivo'); endif; ?>"/>
+                            <?php if ($validation->getError('temarioArchivo')): ?>
+                                <div class="invalid-feedback">
+                                    <?= $validation->getError('temarioArchivo') ?>
+                                </div>
+                            <?php endif; ?>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
+
 
         <div class="card-footer">
             <input type="reset" value="Restablecer" class="btn btn-default">
-            <button type="submit" class="btn btn-primary float-right">Guardar</button>
+            <button type="submit" class="btn btn-primary float-right">Actualizar</button>
         </div>
         </div>
     </form>
