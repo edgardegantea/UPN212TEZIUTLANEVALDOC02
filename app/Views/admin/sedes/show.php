@@ -1,9 +1,8 @@
 <?= $this->extend('admin/template/layout');
 
-$this->section('title') ?> Ver asignatura <?= $this->endSection();
+$this->section('title') ?> Ver sede <?= $this->endSection();
 
-$this->section('encabezado') ?><p class="text-uppercase">Información de la asignatura
-    seleccionado</p><?= $this->endSection();
+$this->section('encabezado') ?><p class="text-uppercase">Información de la sede seleccionada</p><?= $this->endSection();
 
 ?>
 
@@ -13,55 +12,48 @@ $this->section('encabezado') ?><p class="text-uppercase">Información de la asig
     <div class="">
         <div class="row py-4">
             <div class="text-end">
-                <a href="<?= base_url('admin/asignaturas') ?>" class="btn btn-default">Regresar</a>
+                <a href="<?= base_url('admin/sedes') ?>" class="btn btn-default">Regresar</a>
             </div>
         </div>
 
         <div class="card">
 
-            <div class="card-header"><h1><?php echo trim($asignatura['clave']) ?> <?php echo trim($asignatura['nombre']) ?></h1></div>
+            <div class="card-header"><h1><?php echo trim($sede['nombre']) ?></h1></div>
 
             <div class="card-body">
 
                 <div class="row">
                     <div class="col">
                         <label for="">Asignatura:</label>
-                        <?php echo trim($asignatura['clave']) ?> <?php echo trim($asignatura['nombre']) ?>
+                        <?php echo trim($sede['nombre']) ?>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col">
-                        <label>Créditos: </label>
-                        <?php echo trim($asignatura['creditos']) ?>
+                        <label>Teléfono de contacto: </label>
+                        <?php echo trim($sede['telefono']) ?>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col">
-                        <label>Horas D/S/M: </label>
-                        <?php echo trim($asignatura['horasSemana']) ?>
+                        <label>Correo electrónico: </label>
+                        <?php echo trim($sede['email']) ?>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col">
-                        <label>Resumen de la asignatura: </label>
-                        <?php echo trim($asignatura['descripcion']) ?>
+                        <label>Sitio web: </label>
+                        <?php echo trim($sede['website']) ?>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col">
-                        <label>Temario: </label>
-                        <?php echo trim($asignatura['temario']) ?>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col">
-                        <label>Archivo del temario: </label>
-                        <?php echo trim($asignatura['temarioArchivo']) ?>
+                        <label>Perfil de Facebook: </label>
+                        <?php echo trim($sede['facebook']) ?>
                     </div>
                 </div>
 
@@ -70,6 +62,7 @@ $this->section('encabezado') ?><p class="text-uppercase">Información de la asig
         </div>
 
     </div>
-    </div>
+
+
 
 <?= $this->endSection() ?>
