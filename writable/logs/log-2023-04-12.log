@@ -1163,3 +1163,284 @@ WARNING - 2023-04-12 07:00:28 --> [DEPRECATED] Creation of dynamic property App\
  3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
  5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\public\\index.php')
+INFO - 2023-04-12 07:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-04-12 07:09:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\SedeController::$session is deprecated in APPPATH\Controllers\Admin\SedeController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\SedeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\public\\index.php')
+INFO - 2023-04-12 07:09:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-04-12 07:09:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\SedeController::$session is deprecated in APPPATH\Controllers\Admin\SedeController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\SedeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\public\\index.php')
+INFO - 2023-04-12 07:09:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-04-12 07:09:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\SedeController::$session is deprecated in APPPATH\Controllers\Admin\SedeController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\SedeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\public\\index.php')
+INFO - 2023-04-12 07:09:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-04-12 07:09:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\SedeController::$session is deprecated in APPPATH\Controllers\Admin\SedeController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\SedeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\public\\index.php')
+INFO - 2023-04-12 07:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-04-12 07:09:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\SedeController::$session is deprecated in APPPATH\Controllers\Admin\SedeController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\SedeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\public\\index.php')
+INFO - 2023-04-12 07:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-04-12 07:09:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\SedeController::$session is deprecated in APPPATH\Controllers\Admin\SedeController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\SedeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\public\\index.php')
+INFO - 2023-04-12 07:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-04-12 07:09:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\SedeController::$session is deprecated in APPPATH\Controllers\Admin\SedeController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\SedeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\public\\index.php')
+INFO - 2023-04-12 07:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-04-12 07:09:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\SedeController::$session is deprecated in APPPATH\Controllers\Admin\SedeController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\SedeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\public\\index.php')
+INFO - 2023-04-12 07:09:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-04-12 07:09:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\SedeController::$session is deprecated in APPPATH\Controllers\Admin\SedeController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\SedeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\public\\index.php')
+INFO - 2023-04-12 07:09:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-04-12 07:09:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\SedeController::$session is deprecated in APPPATH\Controllers\Admin\SedeController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\SedeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\public\\index.php')
+INFO - 2023-04-12 07:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-04-12 07:10:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\SedeController::$session is deprecated in APPPATH\Controllers\Admin\SedeController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\SedeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\public\\index.php')
+INFO - 2023-04-12 07:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-04-12 07:10:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\SedeController::$session is deprecated in APPPATH\Controllers\Admin\SedeController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\SedeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\public\\index.php')
+INFO - 2023-04-12 07:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-04-12 07:10:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\SedeController::$session is deprecated in APPPATH\Controllers\Admin\SedeController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\SedeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\public\\index.php')
+CRITICAL - 2023-04-12 07:10:45 --> Undefined variable $asignatura
+in APPPATH\Views\admin\sedes\edit.php on line 18.
+ 1 APPPATH\Views\admin\sedes\edit.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $asignatura', 'E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\app\\Views\\admin\\sedes\\edit.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\app\\Views\\admin\\sedes\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/sedes/edit', [], true)
+ 5 APPPATH\Controllers\Admin\SedeController.php(97): view('admin/sedes/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\SedeController->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SedeController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\public\\index.php')
+INFO - 2023-04-12 07:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-04-12 07:19:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\SedeController::$session is deprecated in APPPATH\Controllers\Admin\SedeController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\SedeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\public\\index.php')
+INFO - 2023-04-12 07:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-04-12 07:19:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\SedeController::$session is deprecated in APPPATH\Controllers\Admin\SedeController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\SedeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\public\\index.php')
+INFO - 2023-04-12 07:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-04-12 07:19:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\SedeController::$session is deprecated in APPPATH\Controllers\Admin\SedeController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\SedeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\public\\index.php')
+INFO - 2023-04-12 07:19:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-04-12 07:19:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\SedeController::$session is deprecated in APPPATH\Controllers\Admin\SedeController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\SedeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\public\\index.php')
+INFO - 2023-04-12 07:19:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-04-12 07:19:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\SedeController::$session is deprecated in APPPATH\Controllers\Admin\SedeController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\SedeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\public\\index.php')
+INFO - 2023-04-12 07:20:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-04-12 07:20:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\SedeController::$session is deprecated in APPPATH\Controllers\Admin\SedeController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\SedeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\public\\index.php')
+INFO - 2023-04-12 07:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-04-12 07:20:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\SedeController::$session is deprecated in APPPATH\Controllers\Admin\SedeController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\SedeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\public\\index.php')
+INFO - 2023-04-12 07:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-04-12 07:20:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\SedeController::$session is deprecated in APPPATH\Controllers\Admin\SedeController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\SedeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\public\\index.php')
+WARNING - 2023-04-12 07:20:10 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\sedes\show.php on line 42.
+ 1 APPPATH\Views\admin\sedes\show.php(42): trim(null)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\app\\Views\\admin\\sedes\\show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/sedes/show', [], true)
+ 5 APPPATH\Controllers\Admin\SedeController.php(45): view('admin/sedes/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\SedeController->show('2', 'dist', 'img', 'user1-128x128.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SedeController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\public\\index.php')
+INFO - 2023-04-12 07:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-04-12 07:20:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\SedeController::$session is deprecated in APPPATH\Controllers\Admin\SedeController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\SedeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\public\\index.php')
+WARNING - 2023-04-12 07:20:10 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\sedes\show.php on line 42.
+ 1 APPPATH\Views\admin\sedes\show.php(42): trim(null)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\app\\Views\\admin\\sedes\\show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/sedes/show', [], true)
+ 5 APPPATH\Controllers\Admin\SedeController.php(45): view('admin/sedes/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\SedeController->show('2', 'dist', 'img', 'user8-128x128.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SedeController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\public\\index.php')
+INFO - 2023-04-12 07:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-04-12 07:20:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\SedeController::$session is deprecated in APPPATH\Controllers\Admin\SedeController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\SedeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\public\\index.php')
+WARNING - 2023-04-12 07:20:10 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\sedes\show.php on line 42.
+ 1 APPPATH\Views\admin\sedes\show.php(42): trim(null)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\app\\Views\\admin\\sedes\\show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/sedes/show', [], true)
+ 5 APPPATH\Controllers\Admin\SedeController.php(45): view('admin/sedes/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\SedeController->show('2', 'dist', 'img', 'user3-128x128.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SedeController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\public\\index.php')
+INFO - 2023-04-12 07:21:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-04-12 07:21:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\SedeController::$session is deprecated in APPPATH\Controllers\Admin\SedeController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\SedeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\public\\index.php')
+INFO - 2023-04-12 07:21:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-04-12 07:21:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\SedeController::$session is deprecated in APPPATH\Controllers\Admin\SedeController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\SedeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\public\\index.php')
+WARNING - 2023-04-12 07:21:17 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\sedes\show.php on line 42.
+ 1 APPPATH\Views\admin\sedes\show.php(42): trim(null)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\app\\Views\\admin\\sedes\\show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/sedes/show', [], true)
+ 5 APPPATH\Controllers\Admin\SedeController.php(45): view('admin/sedes/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\SedeController->show('2', 'dist', 'img', 'user1-128x128.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SedeController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\public\\index.php')
+INFO - 2023-04-12 07:21:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-04-12 07:21:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\SedeController::$session is deprecated in APPPATH\Controllers\Admin\SedeController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\SedeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\public\\index.php')
+WARNING - 2023-04-12 07:21:17 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\sedes\show.php on line 42.
+ 1 APPPATH\Views\admin\sedes\show.php(42): trim(null)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\app\\Views\\admin\\sedes\\show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/sedes/show', [], true)
+ 5 APPPATH\Controllers\Admin\SedeController.php(45): view('admin/sedes/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\SedeController->show('2', 'dist', 'img', 'user8-128x128.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SedeController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\public\\index.php')
+INFO - 2023-04-12 07:21:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-04-12 07:21:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\SedeController::$session is deprecated in APPPATH\Controllers\Admin\SedeController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\SedeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\public\\index.php')
+WARNING - 2023-04-12 07:21:17 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\sedes\show.php on line 42.
+ 1 APPPATH\Views\admin\sedes\show.php(42): trim(null)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\app\\Views\\admin\\sedes\\show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/sedes/show', [], true)
+ 5 APPPATH\Controllers\Admin\SedeController.php(45): view('admin/sedes/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\SedeController->show('2', 'dist', 'img', 'user3-128x128.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SedeController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\public\\index.php')
+INFO - 2023-04-12 07:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-04-12 07:21:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\SedeController::$session is deprecated in APPPATH\Controllers\Admin\SedeController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\SedeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\public\\index.php')
+INFO - 2023-04-12 07:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-04-12 07:21:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\SedeController::$session is deprecated in APPPATH\Controllers\Admin\SedeController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\SedeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZIUTLAN\\evaldoc\\public\\index.php')
