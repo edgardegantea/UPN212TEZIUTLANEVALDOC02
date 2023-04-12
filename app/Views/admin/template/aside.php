@@ -37,7 +37,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="<?= base_url('admin/asignaturas') ?>" class="nav-link">
+                    <a href="<?= base_url('admin/asignaturas'); ?>" class="nav-link">
                         <i class="nav-icon fas fa-bookmark"></i>
                         <p>Asignaturas</p>
                     </a>
@@ -49,7 +49,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="https://adminlte.io/docs/3.1/" class="nav-link">
+                    <a href="<?= base_url('admin/sedes'); ?>" class="nav-link">
                         <i class="nav-icon fas fa-school"></i>
                         <p>Sedes</p>
                     </a>

@@ -59,7 +59,7 @@ var KeyTable = function ( dt, opts ) {
 		throw 'KeyTable requires DataTables 1.10.8 or newer';
 	}
 
-	// User and defaults configuration object
+	// Usuario and defaults configuration object
 	this.c = $.extend( true, {},
 		DataTable.defaults.keyTable,
 		KeyTable.defaults,
@@ -232,7 +232,7 @@ $.extend( KeyTable.prototype, {
 
 				// Or an Editor date input
 				if (
-					$(e.target).parents('div.editor-datetime').length ||
+					$(e.target).parents('div.usuario-datetime').length ||
 					$(e.target).parents('div.dt-datetime').length 
 				) {
 					return;
@@ -250,7 +250,7 @@ $.extend( KeyTable.prototype, {
 		if ( this.c.editor ) {
 			var editor = this.c.editor;
 
-			// Need to disable KeyTable when the main editor is shown
+			// Need to disable KeyTable when the main usuario is shown
 			editor.on( 'open.keyTableMain', function (e, mode, action) {
 				if ( mode !== 'inline' && that.s.enable ) {
 					that.enable( false );
@@ -479,7 +479,7 @@ $.extend( KeyTable.prototype, {
 						.submit();
 				}
 				else {
-					// No editor, so just dump the data in
+					// No usuario, so just dump the data in
 					focused.cell.data( pastedText );
 					dt.draw(false);
 				}
@@ -580,7 +580,7 @@ $.extend( KeyTable.prototype, {
 					dt.keys.enable( hardEdit ? 'tab-only' : 'navigation-only' );
 
 					// On blur of the navigation submit
-					dt.on( 'key-blur.editor', function (e, dt, cell) {
+					dt.on( 'key-blur.usuario', function (e, dt, cell) {
 						if ( editor.displayed() && cell.node() === editCell.node() ) {
 							editor.submit();
 						}
@@ -605,7 +605,7 @@ $.extend( KeyTable.prototype, {
 					// Restore full key navigation on close
 					editor.one( 'close'+namespace, function () {
 						dt.keys.enable( true );
-						dt.off( 'key-blur.editor' );
+						dt.off( 'key-blur.usuario' );
 						editor.off( namespace );
 						$( dt.table().container() ).removeClass('dtk-focus-alt');
 

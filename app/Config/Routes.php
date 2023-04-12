@@ -27,6 +27,7 @@ $routes->group('admin', ['filter' => 'auth'], function ($routes) {
     // $routes->resource('usuarios', ['controller' => 'Admin\UsuarioController']);
     $routes->resource('usuarios', ['controller' => 'Admin\UsuarioController']);
     $routes->resource('asignaturas', ['controller' => 'Admin\AsignaturaController']);
+    $routes->resource('sedes', ['controller' => 'Admin\SedeController']);
 });
 
 $routes->group('docente', ['filter' => 'auth'], function ($routes) {
